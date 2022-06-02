@@ -21,17 +21,69 @@ export default function Home() {
             </View>
         </Swiper>
       </View>
+      <View style={{
+          flex: 1,
+          backgroundColor: "red",
+          flexDirection: "row"
+      }}>
+          <View style={{
+              flex: 1,
+              backgroundColor: "orange",
+              justifyContent: "flex-end"
+          }}>
+
+          </View>
+          <View style={{
+              flex: 1,
+              backgroundColor: "green",
+              justifyContent: "flex-end"
+          }}>
+          </View>
+      </View>
+      <View style={{
+          flex: 1,
+          backgroundColor: "red",
+          flexDirection: "row"
+      }}>
+          <View style={{
+              flex: 1,
+              backgroundColor: "blue",
+              justifyContent: "flex-end"
+          }}></View>
+          <View style={{
+              flex: 1,
+              backgroundColor: "yellow",
+              justifyContent: "flex-end"
+          }}></View>
+      </View>
+      <View style={{
+          flex: 1,
+          backgroundColor: "red",
+          flexDirection: "row"
+      }}>
+          <View style={{
+        flex: 1,
+        backgroundColor: "black",
+        justifyContent: "flex-end"
+    }}></View>
+        <View style={{
+            flex: 1,
+            backgroundColor: "grey",
+            justifyContent: "flex-end"
+        }}>
+
+    </View>
+    </View>
     </SafeAreaView>
     );
 }
 
 const SizeSwiper = StyleSheet.create({
-    flex: 0.25,
+    flex: 1.5,
 });
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      alignItems: 'center'
     },
   });
   
